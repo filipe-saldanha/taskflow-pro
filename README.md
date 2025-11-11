@@ -3,35 +3,45 @@
 Aplicação web para organização de tarefas e hábitos.  
 Desenvolvida com **React + Vite**, com foco em aprendizado de front-end, componentização e boas práticas de código.
 
+---
+
 ## 🚀 Tecnologias
-- React
-- JavaScript (ES6+)
-- Vite
-- HTML e CSS
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+
+---
+
+## 💡 Funcionalidades
+- Adicionar, editar e remover tarefas
+- Marcar tarefas como concluídas
+- Filtrar por status (pendente/concluída)
+- Interface responsiva e intuitiva
+
+---
 
 ## 📚 Aprendizados
 - Manipulação de estado com React
 - Estruturação de componentes
+- Uso de hooks (`useState`, `useEffect`)
 - Versionamento com Git e GitHub
 - Organização de código e design responsivo
 
 ---
 
-Em desenvolvimento ⚙️
+## 🧩 Como rodar o projeto
 
-# React + Vite
+```bash
+# Clonar o repositório
+git clone https://github.com/filipe-saldanha/taskflow-pro.git
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Entrar na pasta
+cd taskflow-pro
 
-Currently, two official plugins are available:
+# Instalar as dependências
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Iniciar o servidor local
+npm run dev
